@@ -1,0 +1,54 @@
+# ===== Unity .gitignore =====
+# Pastas geradas automaticamente pelo Unity (nao versionar)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Assets gerados que nao devem ser versionados
+/[Aa]ssets/AssetStoreTools*
+/[Aa]ssets/Plugins/Editor/JetBrains*
+.consulo/
+
+# Arquivos de solucao / IDE
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.vsconfig
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos de crash do Unity
+sysinfo.txt
+crashlog*
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Visual Studio / Rider
+.vs/
+.idea/
+ExportedObj/
