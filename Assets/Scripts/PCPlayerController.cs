@@ -6,8 +6,8 @@ using UnityEngine.InputSystem;
 namespace SalaSegurancaVR
 {
     /// <summary>
-    /// Controlador simples de navegacao por teclado e mouse para explorar o
-    /// ambiente no Unity Editor quando nao ha headset VR disponivel.
+    /// Controlador auxiliar de navegacao por teclado e mouse para testar a
+    /// cena no Unity Editor quando nao ha headset VR disponivel.
     /// Utiliza o novo Input System (com.unity.inputsystem).
     ///
     /// Controles:

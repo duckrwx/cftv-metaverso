@@ -12,7 +12,7 @@ Como abrir:
 4. Abra a cena Assets/Scenes/SalaSegurancaVR.unity.
 5. Pressione Play no Unity Editor.
 
-Controles no PC:
+Controles no Editor:
 - W, A, S, D: mover.
 - Mouse: olhar ao redor.
 - Espaco: subir.
