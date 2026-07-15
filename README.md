@@ -34,7 +34,6 @@ necessidade de um headset VR.
 
 ```
 Assets/
-  Editor/     SalaSegurancaBuilder.cs   (gera a cena automaticamente)
   Scripts/    PCPlayerController.cs      (navegação no PC: teclado + mouse)
   Materials/  materiais URP da cena + skybox procedural
   Scenes/     SalaSegurancaVR.unity      (cena principal)
@@ -49,9 +48,6 @@ ProjectSettings/
 2. Abrir o **Unity Hub** e adicionar a pasta do projeto.
 3. Abrir com a versão **6000.3.19f1** (ou compatível).
 4. Abrir a cena `Assets/Scenes/SalaSegurancaVR.unity`.
-
-> Caso queira reconstruir a cena do zero, use o menu
-> **Sala Segurança VR → Construir Cena** dentro do Editor.
 
 ## Como testar (navegação no PC)
 

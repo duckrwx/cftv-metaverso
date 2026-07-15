@@ -130,15 +130,9 @@ O projeto possui o script `Assets/Scripts/PCPlayerController.cs`, que permite te
 
 Essa solução atende ao teste local e evita depender de headset para validar a cena.
 
-## 10. Geração da cena
+## 10. Cena salva no projeto
 
-O projeto também inclui o script editor `Assets/Editor/SalaSegurancaBuilder.cs`. Ele cria automaticamente a cena `SalaSegurancaVR`, materiais, hierarquia, objetos principais, iluminação e controlador de navegação.
-
-No Unity Editor, a reconstrução pode ser feita pelo menu:
-
-```text
-Sala Seguranca VR -> Construir Cena
-```
+A entrega utiliza a cena salva em `Assets/Scenes/SalaSegurancaVR.unity` como fonte principal do ambiente. Os objetos, materiais, iluminação e detalhes manuais foram mantidos diretamente na cena do Unity, permitindo que o avaliador abra o projeto e visualize o resultado sem depender de um script de reconstrução automática.
 
 ## 11. Estrutura versionada no GitHub
 
