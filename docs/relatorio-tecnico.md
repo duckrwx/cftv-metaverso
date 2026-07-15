@@ -5,6 +5,7 @@
 - **Projeto:** Sala de Segurança VR
 - **Autor:** Paulo Victor da Costa Vilarins
 - **Curso/atividade:** Web 3.0 - Residência em TIC 29
+- **Limitação de hardware relatada:** o desenvolvimento foi priorizado no desktop, pois o notebook disponível poderia apresentar limitações de desempenho para o Unity Editor e para pacotes XR.
 - **Repositório:** <https://github.com/duckrwx/cftv-metaverso>
 
 ## 2. Objetivo
@@ -26,6 +27,8 @@ A cena representa uma sala de segurança com elementos associados a monitorament
 ## 5. Configuração XR e Meta Quest
 
 O projeto foi estruturado para ser uma primeira base de ambiente VR. Nesta versão, a navegação principal foi implementada para PC, com teclado e mouse, permitindo testar a cena diretamente no Unity Editor sem headset.
+
+No estado atual do repositório, a cena, a navegação no PC e os módulos básicos de XR do Unity estão presentes. A configuração completa do Meta XR SDK e do XR Plugin Management para Android/Meta Quest deve ser finalizada no Unity Editor antes da entrega, caso o avaliador exija essa validação como requisito obrigatório.
 
 Para uma evolução com Meta Quest, o caminho técnico recomendado é:
 
@@ -165,7 +168,7 @@ Assets/Scenes/SalaSegurancaVR.unity
 - A versão atual não implementa CFTV real, streaming de vídeo, gateway, blockchain ou assinatura de segmentos.
 - A câmera CFTV é decorativa e serve para caracterizar visualmente a sala.
 - A execução foi priorizada no Unity Editor, sem obrigatoriedade de headset.
-- A adaptação para Meta Quest exige configuração adicional de XR Plugin Management, Android Build Support e Meta XR SDK.
+- A adaptação para Meta Quest exige validação adicional de XR Plugin Management, Android Build Support e Meta XR SDK no Unity Editor.
 
 ## 14. Conclusão
 
