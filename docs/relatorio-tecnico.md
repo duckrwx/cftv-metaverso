@@ -5,7 +5,7 @@
 - **Projeto:** Sala de Segurança VR
 - **Autor:** Paulo Victor da Costa Vilarins
 - **Curso/atividade:** Web 3.0 - Residência em TIC 29
-- **Limitação de hardware relatada:** o desenvolvimento foi priorizado no desktop, pois o notebook disponível poderia apresentar limitações de desempenho para o Unity Editor e para pacotes XR.
+- **Limitação de hardware relatada:** não havia óculos/headset VR disponível para validação direta em dispositivo imersivo.
 - **Repositório:** <https://github.com/duckrwx/cftv-metaverso>
 
 ## 2. Objetivo
@@ -22,13 +22,13 @@ A cena representa uma sala de segurança com elementos associados a monitorament
 - **Renderização:** Universal Render Pipeline (URP) 17.3.0.
 - **Entrada:** Unity Input System.
 - **Controle de versão:** Git e GitHub.
-- **Execução prevista:** Unity Editor em desktop.
+- **Execução prevista:** Unity Editor com navegação por teclado e mouse.
 
 ## 5. Configuração XR e Meta Quest
 
-O projeto foi estruturado para ser uma primeira base de ambiente VR. Nesta versão, a navegação principal foi implementada para PC, com teclado e mouse, permitindo testar a cena diretamente no Unity Editor sem headset.
+O projeto foi estruturado para ser uma primeira base de ambiente VR. Nesta versão, a navegação principal foi implementada com teclado e mouse, permitindo testar a cena diretamente no Unity Editor sem headset.
 
-No estado atual do repositório, a cena, a navegação no PC e os módulos básicos de XR do Unity estão presentes. A configuração completa do Meta XR SDK e do XR Plugin Management para Android/Meta Quest deve ser finalizada no Unity Editor antes da entrega, caso o avaliador exija essa validação como requisito obrigatório.
+No estado atual do repositório, a cena, a navegação local e os módulos básicos de XR do Unity estão presentes. A configuração completa do Meta XR SDK e do XR Plugin Management para Android/Meta Quest deve ser finalizada no Unity Editor antes da entrega, caso o avaliador exija essa validação como requisito obrigatório.
 
 Para uma evolução com Meta Quest, o caminho técnico recomendado é:
 
@@ -63,7 +63,7 @@ Elementos principais:
 - Luz direcional.
 - Luz de teto.
 - Câmera principal.
-- Controlador de navegação no PC.
+- Controlador de navegação por teclado e mouse.
 
 ## 7. Organização da hierarquia
 
@@ -119,7 +119,7 @@ A cena foi organizada com grupos nomeados em português:
 
 ## 9. Navegação e interação
 
-O projeto possui o script `Assets/Scripts/PCPlayerController.cs`, que permite testar o ambiente no editor:
+O projeto possui o script `Assets/Scripts/PCPlayerController.cs`, que permite testar o ambiente no editor com teclado e mouse:
 
 - `W`, `A`, `S`, `D`: movimentação horizontal.
 - Mouse: controle de câmera.
@@ -128,7 +128,7 @@ O projeto possui o script `Assets/Scripts/PCPlayerController.cs`, que permite te
 - `Shift`: acelerar.
 - `Esc`: travar ou liberar cursor.
 
-Essa solução atende ao teste local e evita depender de headset para validar a cena.
+Essa solução atende ao teste local porque não havia óculos/headset VR disponível para validação direta.
 
 ## 10. Cena salva no projeto
 
@@ -172,7 +172,7 @@ Assets/Scenes/SalaSegurancaVR.unity
 
 - A versão atual não implementa CFTV real, streaming de vídeo, gateway, blockchain ou assinatura de segmentos.
 - A câmera CFTV é decorativa e serve para caracterizar visualmente a sala.
-- A execução foi priorizada no Unity Editor, sem obrigatoriedade de headset.
+- A execução foi priorizada no Unity Editor porque não havia óculos/headset VR disponível para validação direta.
 - A adaptação para Meta Quest exige validação adicional de XR Plugin Management, Android Build Support e Meta XR SDK no Unity Editor.
 
 ## 14. Conclusão

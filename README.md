@@ -34,7 +34,7 @@ necessidade de um headset VR.
 
 ```
 Assets/
-  Scripts/    PCPlayerController.cs      (navegação no PC: teclado + mouse)
+  Scripts/    PCPlayerController.cs      (navegação por teclado + mouse)
   Materials/  materiais URP da cena + skybox procedural
   Scenes/     SalaSegurancaVR.unity      (cena principal)
 docs/         relatório técnico, link do repositório e imagem da cena
@@ -49,7 +49,7 @@ ProjectSettings/
 3. Abrir com a versão **6000.3.19f1** (ou compatível).
 4. Abrir a cena `Assets/Scenes/SalaSegurancaVR.unity`.
 
-## Como testar (navegação no PC)
+## Como testar
 
 Pressione **Play** no Unity Editor e explore a sala:
 
@@ -63,8 +63,9 @@ Pressione **Play** no Unity Editor e explore a sala:
 
 ## Observações
 
-O projeto foi pensado para execução **local no Editor**, sem obrigatoriedade de
-headset. A configuração para Meta Quest (Build Android, XR Plugin Management e
+O projeto foi pensado para execução **local no Editor**, com navegação por
+teclado e mouse, pois não havia óculos/headset VR disponível para validação
+direta. A configuração para Meta Quest (Build Android, XR Plugin Management e
 Meta XR SDK) está descrita no relatório técnico que acompanha a entrega em
 `docs/relatorio-tecnico.md`.
 
