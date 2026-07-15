@@ -45,6 +45,8 @@ Essa separação reduz risco na entrega atual: primeiro a cena abre e funciona n
 
 **Arquivo da cena:** `Assets/Scenes/SalaSegurancaVR.unity`
 
+**Registro visual da cena:** `docs/imagens/ambiente-unity.png`
+
 Elementos principais:
 
 - Chão.
@@ -54,6 +56,9 @@ Elementos principais:
 - Monitor.
 - Cofre.
 - Câmera CFTV decorativa.
+- Teclado.
+- Mouse.
+- Cadeira.
 - Porta.
 - Luz direcional.
 - Luz de teto.
@@ -85,6 +90,9 @@ A cena foi organizada com grupos nomeados em português:
   Monitor
   Cofre
   Camera_CFTV
+  Teclado
+  Mouse
+  Cadeira
   Porta
 
 --- ILUMINACAO ---
@@ -102,6 +110,9 @@ A cena foi organizada com grupos nomeados em português:
 | Monitor | Cubo e cilindro | Unity | Representar supervisão de CFTV |
 | Cofre | Cubos e cilindro | Unity | Elemento central de segurança |
 | Câmera CFTV | Cubos e cilindro | Unity | Referência visual ao tema do projeto |
+| Teclado | Cubo | Unity | Detalhe manual da estação de monitoramento |
+| Mouse | Primitivo Unity | Unity | Detalhe manual da estação de monitoramento |
+| Cadeira | Composição de cubos | Unity | Complementar a estação de trabalho |
 | Porta | Cubo | Unity | Elemento ambiental da sala |
 | Luzes | Light components | Unity | Iluminação da cena |
 | Skybox | Material procedural | Unity/URP | Composição visual do ambiente |

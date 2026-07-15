@@ -19,6 +19,10 @@ necessidade de um headset VR.
 
 - GitHub: <https://github.com/duckrwx/cftv-metaverso>
 
+## Evidência visual
+
+![Ambiente Unity da sala de segurança](docs/imagens/ambiente-unity.png)
+
 ## Pacotes usados
 
 - Universal RP (URP)
@@ -34,7 +38,7 @@ Assets/
   Scripts/    PCPlayerController.cs      (navegação no PC: teclado + mouse)
   Materials/  materiais URP da cena + skybox procedural
   Scenes/     SalaSegurancaVR.unity      (cena principal)
-docs/         relatório técnico da entrega
+docs/         relatório técnico, link do repositório e imagem da cena
 Packages/
 ProjectSettings/
 ```
@@ -71,9 +75,10 @@ Meta XR SDK) está descrita no relatório técnico que acompanha a entrega em
 ## Elementos da cena
 
 Chão, quatro paredes, teto, mesa de monitoramento, monitor, cofre, câmera CFTV
-decorativa, porta, luz direcional e luz de teto — todos com nomes em português e
-organizados em uma hierarquia com seções nomeadas: GERENCIAMENTO, PLAYER,
-AMBIENTE, OBJETOS DA SALA DE SEGURANÇA e ILUMINAÇÃO.
+decorativa, porta, teclado, mouse, cadeira, luz direcional e luz de teto —
+todos com nomes em português e organizados em uma hierarquia com seções
+nomeadas: GERENCIAMENTO, PLAYER, AMBIENTE, OBJETOS DA SALA DE SEGURANÇA e
+ILUMINAÇÃO.
 
 ## Autor
 
