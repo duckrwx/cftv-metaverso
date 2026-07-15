@@ -12,8 +12,12 @@ necessidade de um headset VR.
 
 ## Versão do Unity
 
-- **Unity 6000.3.19f1 (LTS)** — versão estável e compatível com o Meta XR SDK.
+- **Unity 6000.3.19f1** — versão usada no desenvolvimento local do projeto.
 - Render Pipeline: **URP (Universal Render Pipeline) 17.3.0**.
+
+## Repositório
+
+- GitHub: <https://github.com/duckrwx/cftv-metaverso>
 
 ## Pacotes usados
 
@@ -30,6 +34,7 @@ Assets/
   Scripts/    PCPlayerController.cs      (navegação no PC: teclado + mouse)
   Materials/  materiais URP da cena + skybox procedural
   Scenes/     SalaSegurancaVR.unity      (cena principal)
+docs/         relatório técnico da entrega
 Packages/
 ProjectSettings/
 ```
@@ -60,7 +65,8 @@ Pressione **Play** no Unity Editor e explore a sala:
 
 O projeto foi pensado para execução **local no Editor**, sem obrigatoriedade de
 headset. A configuração para Meta Quest (Build Android, XR Plugin Management e
-Meta XR SDK) está descrita no Relatório Técnico que acompanha a entrega.
+Meta XR SDK) está descrita no relatório técnico que acompanha a entrega em
+`docs/relatorio-tecnico.md`.
 
 ## Elementos da cena
 
