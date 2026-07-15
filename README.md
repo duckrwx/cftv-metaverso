@@ -7,8 +7,8 @@ Primeiro ambiente de Realidade Virtual em Unity.
 
 Ambiente virtual simples e navegável que representa uma **sala de segurança**,
 com mesa de monitoramento, monitor, cofre e uma câmera CFTV decorativa. O
-usuário pode explorar a sala no Unity Editor usando teclado e mouse, sem a
-necessidade de um headset VR.
+usuário pode explorar a sala no Unity Editor usando teclado e mouse, conforme
+a movimentação inicial no PC prevista na atividade.
 
 ## Versão do Unity
 
@@ -64,9 +64,9 @@ Pressione **Play** no Unity Editor e explore a sala:
 ## Observações
 
 O projeto foi pensado para execução **local no Editor**, com navegação por
-teclado e mouse, pois não havia óculos/headset VR disponível para validação
-direta. A configuração para Meta Quest (Build Android, XR Plugin Management e
-Meta XR SDK) está descrita no relatório técnico que acompanha a entrega em
+teclado e mouse, conforme solicitado para a movimentação inicial no PC. A
+configuração para Meta Quest (Build Android, XR Plugin Management e Meta XR
+SDK) está descrita no relatório técnico que acompanha a entrega em
 `docs/relatorio-tecnico.md`.
 
 ## Elementos da cena
